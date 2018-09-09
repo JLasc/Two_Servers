@@ -5,12 +5,12 @@ var port2 = 7500;
 
 function handleRequest1(request, response) {
 
-  response.end("You're beautiful today");
+  response.end("Server 1 is working");
 }
 
 function handleRequest2(request, response) {
 
-  response.end("You're ugly today");
+  response.end("Server 2 is working");
 }
 
 var server1 = http.createServer(handleRequest1);
